@@ -9,7 +9,8 @@ export const App = () => {
       <h1>
         React App Template {process.env.NODE_ENV} {process.env.name}
       </h1>
-      <img src={AVATAR} alt='My Avatar' style={{ height: 200 }} />
+
+      <img src={AVATAR} alt="My Avatar" style={{ height: 200 }} />
       <Counter />
     </>
   );
