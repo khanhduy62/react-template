@@ -1,5 +1,6 @@
 import './styles.css';
 import AVATAR from './duy-avatar.png';
+import Counter from './Counter';
 
 export const App = () => {
   return (
@@ -7,7 +8,8 @@ export const App = () => {
       <h1>
         React App Template {process.env.NODE_ENV} {process.env.name}
       </h1>
-      <img src={AVATAR} alt='My Avatar' />
+      <img src={AVATAR} alt='My Avatar' style={{ height: 200 }} />
+      <Counter />
     </>
   );
 };
