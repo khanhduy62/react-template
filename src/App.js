@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import './styles.css';
 import AVATAR from './duy-avatar.png';
 import Counter from './Counter';
